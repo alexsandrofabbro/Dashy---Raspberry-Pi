@@ -1,5 +1,5 @@
 # Dashy---Raspberry-Pi
-Instalação e Configuração Dashy em Raspberry Pi
+Instalação e Configuração Dashy Board em Raspberry Pi
 
 Tudo bom pessoal, sou apaixonado por tecnología e informatica. Por isso sempre estou estudando e pesquisando o que posso usar no meu dia a dia. Seja como usuário comum ou como devops.
 
