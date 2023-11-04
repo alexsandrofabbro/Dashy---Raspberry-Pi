@@ -11,7 +11,8 @@ Eu lhe apresento o Dashy Board que é um aplicativo open source, altamente perso
 
 
 
+Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem deseja saber mais sobre Dashy.
 
-Tudo bom pessoal, nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem tenha curiosidade nessa aplicativo.
+
 
 
