@@ -14,5 +14,23 @@ Eu lhe apresento o Dashy Board que é um aplicativo open source, altamente perso
 Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem deseja saber mais sobre Dashy.
 
 
+Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:
+
+Site Dashy
+https://dashy.to/
+
+Docker Dashy
+https://hub.docker.com/r/lissy93/dashy
+https://codeberg.org/alicia/dashy/src/branch/snyk-fix-d436d6927115f144ca04f98d9b6acaee/docker-compose.yml
+
+Sites sobre Dashy
+https://wiki.opensourceisawesome.com/books/self-hosted-dashboards/page/dashy-powerful-informative-configurable-self-hosting-dashboard
+
+Dashy on Raspberry Pi
+https://www.addictedtotech.net/install-dashy-dashboard-using-portainer-and-docker-on-a-raspberry-pi-4-episode-30/
+
+Videos no Youtube
+https://www.youtube.com/watch?v=QsQUzutGarA&t=115s
+https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s
 
 
