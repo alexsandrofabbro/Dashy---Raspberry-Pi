@@ -16,7 +16,7 @@ Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem
 
 Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:
 
-Site Dashy
+Site Dashy <br>
 https://dashy.to/
 
 Docker Dashy
