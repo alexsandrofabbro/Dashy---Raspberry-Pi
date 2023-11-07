@@ -19,18 +19,18 @@ Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minha
 Site Dashy <br>
 https://dashy.to/
 
-Docker Dashy
-https://hub.docker.com/r/lissy93/dashy
+Docker Dashy<br>
+https://hub.docker.com/r/lissy93/dashy<br>
 https://codeberg.org/alicia/dashy/src/branch/snyk-fix-d436d6927115f144ca04f98d9b6acaee/docker-compose.yml
 
-Sites sobre Dashy
+Sites sobre Dashy<br>
 https://wiki.opensourceisawesome.com/books/self-hosted-dashboards/page/dashy-powerful-informative-configurable-self-hosting-dashboard
 
-Dashy on Raspberry Pi
+Dashy on Raspberry Pi<br>
 https://www.addictedtotech.net/install-dashy-dashboard-using-portainer-and-docker-on-a-raspberry-pi-4-episode-30/
 
-Videos no Youtube
-https://www.youtube.com/watch?v=QsQUzutGarA&t=115s
+Videos no Youtube<br>
+https://www.youtube.com/watch?v=QsQUzutGarA&t=115s<br>
 https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s
 
 
