@@ -7,11 +7,11 @@ Como eu sou um usuário curioso, sempre estou achando coisas interessante para m
 
 Eu preciso de uma aplicativo que me fácilite o acesso a algumas aplicações expecificas que utilizo e esse foi um deles.
 
-Eu lhe apresento o Dashy Board que é um aplicativo open source, altamente personalizável, fácil de usar e com privacidade. Ele possiu vários temas integrados, também podemos realizar alteraçãos com a ajuda do CSS.
+Eu lhe apresento o Dashy Board que é um aplicativo open source, altamente personalizável, fácil de usar e com privacidade. Ele possiu vários temas integrados, também podemos realizar alteraçãos com a ajuda do CSS.<br />
 
 
 
-Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem deseja saber mais sobre Dashy.
+Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem deseja saber mais sobre Dashy.<br />
 
 
 Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:
