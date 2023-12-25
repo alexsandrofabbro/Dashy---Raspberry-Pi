@@ -1,3 +1,6 @@
+Português P2
+
+
 # Dashy---Raspberry-Pi
 Instalação e Configuração Dashy Board em Raspberry Pi
 
