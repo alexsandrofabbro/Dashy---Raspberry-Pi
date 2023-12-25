@@ -1,4 +1,4 @@
-Português P1
+Português
 
 
 # Dashy---Raspberry-Pi
@@ -36,6 +36,10 @@ https://www.addictedtotech.net/install-dashy-dashboard-using-portainer-and-docke
 
 Videos no Youtube<br>
 https://www.youtube.com/watch?v=QsQUzutGarA&t=115s<br>
-https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s
+https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
+<br>
+
+
+Inglês
 
 
