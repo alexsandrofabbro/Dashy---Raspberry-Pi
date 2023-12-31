@@ -62,14 +62,23 @@ In this repository I am providing docker-compose and some tips for those who wan
 <br>
 <br>
 
-I'll leave some important links about Dashy that I found during my research:<br>
+I'll leave some important links about Dashy that I found during my research: <br>
 
-Site Dashy<br>
+Site Dashy <br>
 https://dashy.to/
 
-Docker Dashy<br>
-https://hub.docker.com/r/lissy93/dashy<br>
+Docker Dashy <br>
+https://hub.docker.com/r/lissy93/dashy <br>
 https://codeberg.org/alicia/dashy/src/branch/snyk-fix-d436d6927115f144ca04f98d9b6acaee/docker-compose.yml
 
+Website about Dashy <br>
+https://wiki.opensourceisawesome.com/books/self-hosted-dashboards/page/dashy-powerful-informative-configurable-self-hosting-dashboard
 
+Dashy on Raspberry Pi <br>
+https://www.addictedtotech.net/install-dashy-dashboard-using-portainer-and-docker-on-a-raspberry-pi-4-episode-30/
+
+Youtube channels <br>
+https://www.youtube.com/watch?v=QsQUzutGarA&t=115s<br>
+https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
+<br>
 
