@@ -6,9 +6,10 @@ Instalação e Configuração Dashy Board em Raspberry Pi
 
 Tudo bom pessoal, sou apaixonado por tecnología e informatica. Por isso sempre estou estudando e pesquisando o que posso usar no meu dia a dia. Seja como usuário comum ou como devops.
 
-Como eu sou um usuário curioso, sempre estou achando coisas interessante para me ajudar a monitorar a minha rede e computadores em casa.
+Como eu sou um usuário curioso, sempre estou achando coisas interessante para me ajudar a monitorar os aplicativos a minha rede em casa.
 
-Eu preciso de uma aplicativo que me fácilite o acesso a algumas aplicações expecificas que utilizo e esse Dashy Board vai me ajudar.
+Eu preciso de um aplicativo que me fácilite o acesso a algumas aplicações expecificas que utilizo e esse Dashy Board vai me ajudar com isso. Assim espero :) :) :)
+<br>
 
 Eu lhe apresento o Dashy Board que é um aplicativo open source, altamente personalizável, fácil de usar e com privacidade. Ele possiu vários temas integrados, também podemos realizar alteraçãos com a ajuda do CSS.<br>
 <br>
@@ -19,8 +20,7 @@ Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem
 <br>
 <br>
 
-Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:<br>
-
+Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:<br
 Site Dashy<br>
 https://dashy.to/
 
