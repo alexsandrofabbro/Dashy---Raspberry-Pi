@@ -20,7 +20,7 @@ Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem
 <br>
 <br>
 
-Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:<br
+Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:<br>
 Site Dashy<br>
 https://dashy.to/
 
