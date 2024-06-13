@@ -14,17 +14,18 @@ Eu preciso de um aplicativo que me fácilite o acesso a algumas aplicações exp
 Eu lhe apresento o Dashy Board que é um aplicativo open source, altamente personalizável, fácil de usar e com privacidade. Ele possiu vários temas integrados, também podemos realizar alteraçãos com a ajuda do CSS.<br>
 <br>
 <br>
-                                    ******* Observação *******
+******* Observação *******
 <br>
 <br>
 Eu tive um problema com o Ubuntu server 24.04 LTS <br>
 <br>
-Ele esta dando essa mensagem abaixo:<br>
+Ele esta dando essa mensagem:<br>
 
 File "/home/admindev/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 496, in _make_request
     conn.request(
-TypeError: HTTPConnection.request() got an unexpected keyword argument 'chunked'
+TypeError: HTTPConnection.request() got an unexpected keyword argument 'chunked'<br>
 <br>
+
 Eu consegui resolver esse problema com os comandos abaixo:<br>
 
 sudo apt update; sudo apt upgrade;
