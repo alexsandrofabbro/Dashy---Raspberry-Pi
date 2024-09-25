@@ -107,22 +107,23 @@ https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
 <p>***************************************************************************************************************************************************************************************************</p>
 
 
-<h1>Instalação e Configuração do Dashy.</h1>
+<h1>Instalação e Configuração do Dashy com Raspberry Pi.</h1>
 
 <p>Este repositório documenta a Configuração do Dashy. O objetivo é fornecer um guia passo a passo para configurar Dashy funcional e acessível a partir de outros dispositivos na mesma rede.</p>
 
 <p align="center">
-  <img src="https://github.com/Lissy93/dashy/blob/master/public/web-icons/dashy-logo.png" alt="Dashy Logo" width="150">
+  <img src="https://github.com/alexsandrofabbro/Dashy---Raspberry-Pi/blob/main/Dashy.gif" alt="Dashy Logo" width="800x600">
 </p>
 
 <p align="center">
   <strong>Dashy</strong> é um dashboard altamente personalizável, que permite organizar e gerenciar links, serviços e aplicações a partir de uma interface simples e intuitiva.
 </p>
+<br>
+<br>
 
 <h2>Índice</h2>
 <ul>
     <li><a href="#pré-requisitos">Pré-requisitos</a></li>
-    <li><a href="#arquitetura-do-cluster">Arquitetura do Cluster</a></li>
     <li><a href="#configuração-do-ambiente">Configuração do Ambiente</a></li>
     <li><a href="#instalação-do-k3s">Instalação do k3s</a></li>
     <li><a href="#configuração-do-flannel">Configuração do Flannel</a></li>
@@ -136,18 +137,11 @@ https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
 
 <h2 id="pré-requisitos">Pré-requisitos</h2>
 <ul>
-    <li>3 Raspberry Pi 4 com pelo menos 2GB de RAM.</li>
+    <li>1 Raspberry Pi 3 ou superior com pelo menos 2GB de RAM.</li>
     <li>Cartões microSD com pelo menos 16GB.</li>
     <li>Sistema operacional: Raspberry Pi OS Lite ou Ubuntu Server.</li>
+    <li>Docker e Docker-Compose configurado.</li>
     <li>Rede interna com DHCP configurado.</li>
-</ul>
-
-<h2 id="arquitetura-do-cluster">Arquitetura do Cluster</h2>
-<ul>
-    <li><strong>Master Node:</strong> 1 Raspberry Pi (com k3s server).</li>
-    <li><strong>Worker Nodes:</strong> 2 Raspberry Pi (com k3s agent).</li>
-    <li><strong>Rede:</strong> Flannel como CNI (Container Network Interface).</li>
-    <li><strong>LoadBalancer:</strong> MetalLB configurado em modo Layer 2.</li>
 </ul>
 
 <h2 id="configuração-do-ambiente">Configuração do Ambiente</h2>
