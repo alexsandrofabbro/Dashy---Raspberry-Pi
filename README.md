@@ -1,113 +1,11 @@
-Português
+<h1>Instalação e Configuração Dashy Board em Raspberry Pi.</h1>
 
+<p>Tudo bom pessoal, sou apaixonado por tecnología e informatica. Por isso sempre estou estudando e pesquisando o que posso usar no meu dia a dia. Seja como usuário comum ou como devops.</p>
 
-# Dashy---Raspberry-Pi
-Instalação e Configuração Dashy Board em Raspberry Pi
-
-Tudo bom pessoal, sou apaixonado por tecnología e informatica. Por isso sempre estou estudando e pesquisando o que posso usar no meu dia a dia. Seja como usuário comum ou como devops.
-
-Como eu sou um usuário curioso, sempre estou achando coisas interessante para me ajudar a monitorar os aplicativos a minha rede em casa.
-
-Eu preciso de um aplicativo que me fácilite o acesso a algumas aplicações expecificas que utilizo e esse Dashy Board vai me ajudar com isso. Assim espero :) :) :)
-<br>
-
-Eu lhe apresento o Dashy Board que é um aplicativo open source, altamente personalizável, fácil de usar e com privacidade. Ele possiu vários temas integrados, também podemos realizar alteraçãos com a ajuda do CSS.<br>
-<br>
-<br>
-******* Observação *******
-<br>
-<br>
-Eu tive um problema com o Ubuntu server 24.04 LTS <br>
-<br>
-Ele esta dando essa mensagem:<br>
-
-File "/home/admindev/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 496, in _make_request
-    conn.request(
-TypeError: HTTPConnection.request() got an unexpected keyword argument 'chunked'<br>
-<br>
-
-Eu consegui resolver esse problema com os comandos abaixo:<br>
-
-sudo apt update; sudo apt upgrade;
-sudo apt install docker.io docker-compose-v2
-sudo usermod -aG docker ${USER}
+<p>Como eu sou um usuário curioso, sempre estou achando coisas interessante para me ajudar a monitorar os aplicativos a minha rede em casa.</p>
 
 <br>
 <br>
-                                    
-
-
-Nesse repositorio estou disponiblizando docker-compose e algumas dicas para quem deseja saber mais sobre Dashy.<br>
-<br>
-<br>
-<br>
-
-Vou deixar alguns links importantes sobre o Dashy que encontrei durante as minhas pesquisas:<br>
-Site Dashy<br>
-https://dashy.to/
-
-Docker Dashy<br>
-https://hub.docker.com/r/lissy93/dashy<br>
-https://codeberg.org/alicia/dashy/src/branch/snyk-fix-d436d6927115f144ca04f98d9b6acaee/docker-compose.yml
-
-Sites sobre Dashy<br>
-https://wiki.opensourceisawesome.com/books/self-hosted-dashboards/page/dashy-powerful-informative-configurable-self-hosting-dashboard
-
-Dashy on Raspberry Pi<br>
-https://www.addictedtotech.net/install-dashy-dashboard-using-portainer-and-docker-on-a-raspberry-pi-4-episode-30/
-
-Videos no Youtube<br>
-https://www.youtube.com/watch?v=QsQUzutGarA&t=115s<br>
-https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
-<br>
-
-
-Inglês
-<br>
-<br>
-# Dashy---Raspberry-Pi 
-<br>
-Installation and Configuration Dashy Board on Raspberry Pi
-<br>
-<br>
-All good guys, I'm passionate about technology and computers. That's why I'm always studying and researching what I can use in my daily life. Whether as a regular user or as a devops user.
-
-As I'm a curious user, I'm always finding interesting things to help me monitor my network and computers at home.
-
-I need an application that makes it easier for me to access some specific applications that I use and this Dashy Board will help me.
-
-I present to you Dashy Board, which is an open source, highly customizable, easy to use and privacy-friendly application. It has several integrated themes, we can also make changes with the help of CSS.<br>
-<br>
-
-In this repository I am providing docker-compose and some tips for those who want to know more about Dashy.<br>
-<br>
-<br>
-<br>
-
-I'll leave some important links about Dashy that I found during my research: <br>
-
-Site Dashy <br>
-https://dashy.to/
-
-Docker Dashy <br>
-https://hub.docker.com/r/lissy93/dashy <br>
-https://codeberg.org/alicia/dashy/src/branch/snyk-fix-d436d6927115f144ca04f98d9b6acaee/docker-compose.yml
-
-Website about Dashy <br>
-https://wiki.opensourceisawesome.com/books/self-hosted-dashboards/page/dashy-powerful-informative-configurable-self-hosting-dashboard
-
-Dashy on Raspberry Pi <br>
-https://www.addictedtotech.net/install-dashy-dashboard-using-portainer-and-docker-on-a-raspberry-pi-4-episode-30/
-
-Youtube channels <br>
-https://www.youtube.com/watch?v=QsQUzutGarA&t=115s<br>
-https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
-<br>
-
-<p>***************************************************************************************************************************************************************************************************</p>
-
-
-<h1>Instalação e Configuração do Dashy com Raspberry Pi.</h1>
 
 <p>Este repositório documenta a Configuração do Dashy. O objetivo é fornecer um guia passo a passo para configurar Dashy funcional e acessível a partir de outros dispositivos na mesma rede.</p>
 
@@ -124,8 +22,8 @@ https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
 <h2>Índice</h2>
 <ul>
     <li><a href="#pré-requisitos">Pré-requisitos</a></li>
-    <li><a href="#configuração-do-ambiente">Configuração do Ambiente</a></li>
-    <li><a href="#instalação-do-k3s">Instalação do k3s</a></li>
+    <li><a href="#instalacao-com=docker">Instalação com Docker</a></li>
+    <li><a href="#instalacao-docker-compose">Instalação com Docker Compose</a></li>
     <li><a href="#configuração-do-flannel">Configuração do Flannel</a></li>
     <li><a href="#configuração-do-metallb">Configuração do MetalLB</a></li>
     <li><a href="#deploy-de-aplicações">Deploy de Aplicações</a></li>
@@ -144,122 +42,51 @@ https://www.youtube.com/watch?v=zwPJm1Al3a8&t=108s<br>
     <li>Rede interna com DHCP configurado.</li>
 </ul>
 
-<h2 id="configuração-do-ambiente">Configuração do Ambiente</h2>
+<h2 id="instalacao-com=docker">Instalação com Docker</h2>
 <ol>
-    Após instalação do Ubuntu Server no cartão de memória, vocês podem estar configurando o IP fixo do Raspberry Pi no
-    arquivo "network-config" como exemplo abaixo:<br>
+    Para iniciar o Dashy com o Docker, execute o seguinte comando no terminal:<br>
     <br>
-    <pre><code>network:<br>
-      version: 2<br>
-    
-      ethernets:<br>
-        eth0:<br>
-           addresses: [192.168.0.201/24]<br>
-           gateway4: 192.168.0.1<br>
-           dhcp4: false<br>
-           optional: true<br>
-           nameservers:<br>
-               addresses: [192.168.0.1, 0.0.0.0]</pre></code><br>
-    <br>
-    Para conectar a esse Raspberry Pi pela rede vou utilizar a conexão por <b>ssh</b>.<br>
-    <br>
-    <b>OBS:</b> Lembrando de conferir se a <b>porta 22</b> e a conexão por <b>autenticação</b> esteja liberada.
-    Vocês podem está verificando isso em <b>/etc/ssh</b> no arquivo <b>ssh_config</b>
-    <br>
-    <br>
-    <br>
-    Após essa configuração, podem inserir o cartão de memória no Raspberry Pi e conectar pelo terminal utilizando o comando <b>ssh</b>.<br>
-    <br>
-    <br>
-    <h2>Preparação dos Raspberry Pis.</h2>
-    <b>Obs:</b> Esses passos têm que ser realizados em todos os Raspberry Pi que irão fazer parte do seu Cluster.<br>
-    <br>
-    Iremos realizar os comandos pelo terminal e com o usuário <b>Root.</b><br> 
-    Digite o seguinte comando para ir como <b>Root</b> e depois a senha do root.<br>
-    <br>
-    <pre><code>sudo su</pre></code>
-    <br>
-    Configurando os hostname dos clusters com o seguinte comando:<br>
-    <br>
-    <pre><code>hostname cluster01</pre></code>
-    <br>
-    Para salvar o nome no arquivo host teremos que executar o comando abaixo:<br>
-    <br>
-    <pre><code><b>echo "cluster01" > /etc/hostname</b></pre></code><br>
-    <br>
-    Se você quiser confirmar se foi alterado o nome, execute esse comando:<br>
-    <br>
-    <pre><code><b>cat /etc/hostname</b></pre></code><br>
-    <br>
-    Adicionar o IP do Raspberry Pi no arquivo hosts, para isso vamos usar o seguinte comando com o nano como o exemplo abaixo:<br>
-    <br>
-    <pre><code><b>nano /etc/hosts</b></pre></code><br>
-    <pre><code>127.0.0.1         localhost<br>
-    <b>192.168.0.201  cluster01</b><br>  
-    ::1 localhost<br>
-    127.0.1.1         pop-os.localdomain pop-os</pre></code><br>
-    <b>Obs.</b> Se for configurar o Kubernetes em desktops, temos que desabilitar o Swap.<br>
-    <br>
-    <br>
-    Como no Raspberry Pi não vem ativado. não iremos executar esse comando:<br>
-    <br>
-    <pre><code><b>swapoff -a</b></pre></code><br>
-    <br>
-    Habilitando a memória que por padrão ela vem desabilitada:<br>
-    <br>
-    <pre><code><b>nano /boot/firmware/cmdline.txt</b></pre></code><br>
-    <br>
-    No final da linha você irá adicionar o seguinte:<br>
-    <br>
-    <pre><code><b>cgroup_enable=cpuset, cgroup_enable=memory, cgroup_memory=1, swapaccount=1</b></pre></code><br>
-    <br>
-    Também temos que instalar o Java e o Docker<br>
-    <br>
-    Vamos criar um arquivo .json<br>
-    Para isso, vamos utilizar o seguinte comando:<br>
-    <br>
-    <pre><code><b>nano /etc/docker/daemon.json</b></pre></code><br>
-    <br>
-    Ele é um arquivo novo e vamos digitar os seguintes comandos:<br>
-    <br>
-    <pre><code>
-    {<br>
-       "exec-opts": ["native.cgroupdriver=systemd"],<br>
-       "log-driver": "json-file",<br>
-       "log-opts": {<br>
-             "max-size": "100m"<br>
-         },<br>
-       "storage-driver": "overlay2"<br>
-    }<br>
-    </pre></code>
-    <br>
-    Não podemos esquecer de habilitar uma opção no arquivo <b>sysctl.conf</b>.<br>
-    <br>
-    Para isso vamos executar o seguinte comando:<br>
-    <pre><code><b>nano /etc/sysctl.conf</b></pre></code><br>
-    <br>
-    tem que localizar a linha que está escrito <b>#net.ipv4.ip_forward=1</b> e remover o <b>#</b> 
+    <pre><code><br>
+        docker run -d \
+        -p 4000:80 \
+        --name dashy \
+        -v /local/path/to/config.yml:/app/public/conf.yml \
+        lissy93/dashy:latest
+    </pre></code><br>
+    <p>Esse comando faz o seguinte:</p>
+    <ul>
+      <li><strong>-d</strong>: Executa o container em segundo plano (detached).</li>
+      <li><strong>-p 4000:80</strong>: Mapeia a porta 4000 do host para a porta 80 do container, tornando o Dashy acessível em <code>http://localhost:4000</code>.</li>
+      <li><strong>-v /local/path/to/config.yml:/app/public/conf.yml</strong>: Monta o arquivo de configuração local <code>config.yml</code> no container.</li>
+      <li><strong>lissy93/dashy:latest</strong>: A imagem oficial do Dashy.</li>
+    </ul>
     <br>
 </ol>
 <br>
 
-<h2 id="instalação-do-k3s">Instalação do k3s</h2>
+<h2 id="instalacao-docker-compose">Instalação com Docker Compose</h2>
 <ol>
-    <li>Instale o k3s no nó master com o Flannel:</li>
+    <p>Para gerenciar o Dashy usando Docker Compose, crie um arquivo chamado <code>docker-compose.yml</code> com o seguinte conteúdo:</p>
+    <pre><code>
+        version: '3'
+        services:
+          dashy:
+            image: lissy93/dashy:latest
+            container_name: dashy
+            ports:
+              - "4000:80"
+            volumes:
+              - ./config.yml:/app/public/conf.yml
+            restart: unless-stopped
+    </code></pre>
+    <p>Salve o arquivo e execute o seguinte comando para iniciar o Dashy:</p>
+    <pre><code>docker-compose up -d</code></pre>    
+    <p>Esse comando faz o seguinte:</p>
+    <ul>
+      <li><strong>up -d</strong>: Inicia os serviços definidos no arquivo <code>docker-compose.yml</code> em segundo plano (detached).</li>
+      <li>O Dashy estará disponível no seu navegador na URL http://<strong>IP-do-Raspberry</strong>:8080.</li>
+    </ul>
 </ol>
-<pre><code>curl -sfL https://get.k3s.io | sh -s - --flannel-iface=eth0
-</code></pre>
-<ol start="2">
-    <li>Obtenha o token do master para conectar os nós workers:</li>
-</ol>
-<pre><code>cat /var/lib/rancher/k3s/server/node-token
-</code></pre>
-<ol start="3">
-    <li>Conecte os workers ao cluster:</li>
-</ol>
-<pre><code>curl -sfL https://get.k3s.io | K3S_URL=https://&lt;master-node-ip&gt;:6443 K3S_TOKEN=&lt;token&gt; sh -
-</code></pre>
-
 <h2 id="configuração-do-flannel">Configuração do Flannel</h2>
 <p>O Flannel é configurado automaticamente pelo k3s. Verifique se a rede está funcional com:</p>
 <pre><code>kubectl get pods -A
