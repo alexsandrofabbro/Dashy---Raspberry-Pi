@@ -24,13 +24,13 @@
     <li><a href="#pré-requisitos">Pré-requisitos</a></li>
     <li><a href="#instalacao-com=docker">Instalação com Docker</a></li>
     <li><a href="#instalacao-docker-compose">Instalação com Docker Compose</a></li>
-    <li><a href="#configuração-do-flannel">Configuração do Flannel</a></li>
+    <!-- <li><a href="#configuração-do-flannel">Configuração do Flannel</a></li>
     <li><a href="#configuração-do-metallb">Configuração do MetalLB</a></li>
     <li><a href="#deploy-de-aplicações">Deploy de Aplicações</a></li>
     <li><a href="#monitoramento-e-acesso-ao-cluster">Monitoramento e Acesso ao Cluster</a></li>
     <li><a href="#recursos-adicionais">Recursos Adicionais</a></li>
     <li><a href="#contribuições">Contribuições</a></li>
-    <li><a href="#licença">Licença</a></li>
+    <li><a href="#licença">Licença</a></li>-->
 </ul>
 
 <h2 id="pré-requisitos">Pré-requisitos</h2>
@@ -87,11 +87,12 @@
       <li>O Dashy estará disponível no seu navegador na URL http://<strong>IP-do-Raspberry</strong>:8080.</li>
     </ul>
 </ol>
+<!--
 <h2 id="configuração-do-flannel">Configuração do Flannel</h2>
 <p>O Flannel é configurado automaticamente pelo k3s. Verifique se a rede está funcional com:</p>
 <pre><code>kubectl get pods -A
 </code></pre>
-
+<!--
 <h2 id="configuração-do-metallb">Configuração do MetalLB</h2>
 <ol>
     <li>Instale o MetalLB:</li>
@@ -132,17 +133,17 @@ spec:
 </ol>
 <pre><code>sudo kubectl apply -f L2Advertisement.yaml
 </code></pre>
-
+<!--
 <h2 id="deploy-de-aplicações">Configurando Nginx para teste</h2>
 <p>Exemplo de deploy de uma aplicação simples:</p>
 <pre><code>sudo kubectl create deploy nginx –image nginx:latest</code></pre>
 <p>Expondo o Nginx para acessar pelo browser:</p>
 <pre><code>sudo kubectl expose deploy nginx –port 80 --type LoadBalancer</code></pre>
-
+<!--
 <p>Agora podemos acessar pelo endereço http://192.168.0.101:80 no seu browser</p>
 
 
-
+<!--
 <h2 id="monitoramento-e-acesso-ao-cluster">Monitoramento e Acesso ao Cluster</h2>
 <ul>
     <li>Acesse suas aplicações pelo IP atribuído pelo MetalLB.</li>
