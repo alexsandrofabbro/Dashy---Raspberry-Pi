@@ -90,12 +90,12 @@
 
 <h2 id="recursos-adicionais">Recursos Adicionais</h2>
 <ul>
-    <li><a href="https:www.dashi.to" target="_blank">Documentação oficial do Dashys</a></li>
-    <li><a href="https://github.com/sponsors/Lissy93" target="_blank">GitHub Lissy93</a></li>
-    <li><a href="https://github.com/Lissy93/dashy" target="_blank">GitHub Dashy</a></li>
+    <li><a href="https:www.dashi.to/" target="_blank">Documentação oficial do Dashys</a></li>
+    <li><a href="https://github.com/sponsors/Lissy93/" target="_blank">GitHub Lissy93</a></li>
+    <li><a href="https://github.com/Lissy93/dashy/" target="_blank">GitHub Dashy</a></li>
     <li><a href="https://hub.docker.com/r/lissy93/dashy" target="_blank">DockerHub Dashy</a></li>
-    <li><a href="https://github.com/Lissy93/dashy/blob/master/docker-compose.yml" target="_blank">Docker-Compose Dashy</a></li>
-    <li><a href="https://github.com/Lissy93/dashy/blob/master/Dockerfile" target="_blank">Docker File Dashy</a></li>
+    <li><a href="https://github.com/Lissy93/dashy/blob/master/docker-compose.yml/" target="_blank">Docker-Compose Dashy</a></li>
+    <li><a href="https://github.com/Lissy93/dashy/blob/master/Dockerfile/" target="_blank">Docker File Dashy</a></li>
 
 </ul>
 
