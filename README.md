@@ -24,13 +24,6 @@
     <li><a href="#pré-requisitos">Pré-requisitos</a></li>
     <li><a href="#instalacao-com=docker">Instalação com Docker</a></li>
     <li><a href="#instalacao-docker-compose">Instalação com Docker Compose</a></li>
-    <!-- <li><a href="#configuração-do-flannel">Configuração do Flannel</a></li>
-    <li><a href="#configuração-do-metallb">Configuração do MetalLB</a></li>
-    <li><a href="#deploy-de-aplicações">Deploy de Aplicações</a></li>
-    <li><a href="#monitoramento-e-acesso-ao-cluster">Monitoramento e Acesso ao Cluster</a></li>
-    <li><a href="#recursos-adicionais">Recursos Adicionais</a></li>
-    <li><a href="#contribuições">Contribuições</a></li>
-    <li><a href="#licença">Licença</a></li>-->
 </ul>
 
 <h2 id="pré-requisitos">Pré-requisitos</h2>
@@ -91,12 +84,10 @@
 <h2 id="recursos-adicionais">Recursos Adicionais</h2>
 <ul>
     <li><a href="https://dashy.to/" target="_blank">Documentação oficial do Dashys</a></li>
-    <li><a href="https://github.com/sponsors/Lissy93/" target="_blank">GitHub Lissy93</a></li>
     <li><a href="https://github.com/Lissy93/dashy/" target="_blank">GitHub Dashy</a></li>
     <li><a href="https://hub.docker.com/r/lissy93/dashy/" target="_blank">DockerHub Dashy</a></li>
     <li><a href="https://github.com/Lissy93/dashy/blob/master/docker-compose.yml/" target="_blank">Docker-Compose Dashy</a></li>
     <li><a href="https://github.com/Lissy93/dashy/blob/master/Dockerfile/" target="_blank">Docker File Dashy</a></li>
-
 </ul>
 
 <h2 id="contribuições">Contribuições</h2>
