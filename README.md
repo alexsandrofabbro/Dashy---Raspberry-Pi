@@ -91,8 +91,8 @@
 <h2 id="recursos-adicionais">Recursos Adicionais</h2>
 <ul>
     <li><a href="https:www.dashi.to">Documentação oficial do Dashys</a></li>
-    <li><a href="https://github.com/flannel-io/flannel](https://github.com/sponsors/Lissy93">GitHub Lissy93</a></li>
-    <li><a href="https://metallb.universe.tf/](https://github.com/Lissy93/dashy">GitHub Dashy</a></li>
+    <li><a href="https://github.com/sponsors/Lissy93" target="_blank">GitHub Lissy93</a></li>
+    <li><a href="https://github.com/Lissy93/dashy">GitHub Dashy</a></li>
     <li><a href="https://hub.docker.com/r/lissy93/dashy">DockerHub Dashy</a></li>
     <li><a href="https://github.com/Lissy93/dashy/blob/master/docker-compose.yml">Docker-Compose Dashy</a></li>
     <li><a href="https://github.com/Lissy93/dashy/blob/master/Dockerfile">Docker File Dashy</a></li>
